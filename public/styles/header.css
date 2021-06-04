@@ -1,0 +1,24 @@
+
+#header {
+  display: grid;
+  grid-column-gap: 1.25rem;
+  grid-template-columns: repeat(13, 1fr);
+  padding: 0;
+  padding: 1.75rem 0;
+
+}
+
+.headerTexts {
+  font-family: "Noto IKEA","Noto Sans","Roboto","Open Sans",-apple-system,sans-serif !important;
+  display: block;
+  padding: .625rem;
+  font-size: .875rem;
+  font-weight: bold;
+  color: #111;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.57;
+  font: 100% sans-serif;
+}
+
+b{font-weight:bold;}
