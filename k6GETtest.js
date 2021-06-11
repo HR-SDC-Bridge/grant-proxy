@@ -1,21 +1,3 @@
-// export let options = {
-//   ext: {
-//     loadimpact: {
-//       projectID: 3539674,
-//       // Test runs with the same name groups test runs together
-//       name: "Proxy Test"
-//     }
-//   }
-// }
-
-// import http from 'k6/http';
-// import { sleep } from 'k6';
-// export default function () {
-//   var id = Math.floor(Math.random() * 10000000);
-//   http.get(`http://localhost:4000/${id}`);
-//   sleep(1);
-// }
-
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 
